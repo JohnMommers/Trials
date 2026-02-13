@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Snake Game</h1>
+    <p class="instructions">Use arrow keys (or WASD) to move. Press Space to restart.</p>
+    <canvas id="game" width="420" height="420" aria-label="Snake game board"></canvas>
+    <section class="status">
+      <p>Score: <span id="score">0</span></p>
+      <p>High Score: <span id="high-score">0</span></p>
+      <p id="message">Press any arrow key to start.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
